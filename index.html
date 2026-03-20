@@ -1,1 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASSA TECH - Image Splitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Abhaya Libre Sinhala Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>DASSA <span>TECH</span></h1>
+            <p>Cover Logo Splitter - 6</p>
+        </header>
+
+        <div class="upload-section">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <h3>Selected Your Image</h3>
+            <p>JPG, PNG And JPEG images upload ✅</p>
+            <input type="file" id="fileInput" class="file-input" accept="image/*">
+            <label for="fileInput" class="upload-btn">
+                <i class="fas fa-camera"></i> UPLOAD IMAGE 
+            </label>
+        </div>
+
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner"></i>
+            <p>Please Waiting...</p>
+        </div>
+
+        <div id="imageInfo" class="image-info" style="display: none;"></div>
+
+        <div class="preview-section" id="previewSection"></div>
+
+        <button class="download-all-btn" id="downloadAllBtn" style="display: none;">
+            <i class="fas fa-download"></i> Download All Images 
+        </button>
+
+        <footer class="footer">
+            <p><i class="fas fa-copyright"></i> 2026 DASSA TECH - </p>
+            <p><i class="fas fa-heart"></i>  DASSA TECH</p>
+        </footer>
+    </div>
+  <script src="script.js"> </script>
+</body>
+</html>
